@@ -4,7 +4,7 @@
   "description": "A simple IOT platfrom - DB module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/juanIgnacioMatilla/platziverse/issues"
   },
-  "homepage": "https://github.com/juanIgnacioMatilla/platziverse#readme"
+  "homepage": "https://github.com/juanIgnacioMatilla/platziverse#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.7"
+  }
 }
